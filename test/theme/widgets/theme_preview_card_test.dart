@@ -3,7 +3,7 @@ import 'package:clock_app/theme/theme.dart';
 import 'package:clock_app/theme/widgets/theme_preview_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 const testKey = Key('key');
 var defaultColorScheme = defaultTheme.colorScheme;

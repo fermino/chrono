@@ -17,7 +17,6 @@ import 'package:clock_app/system/logic/handle_boot.dart';
 import 'package:clock_app/system/logic/initialize_isolate_ports.dart';
 import 'package:clock_app/timer/logic/update_timers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boot_receiver/flutter_boot_receiver.dart';
 import 'package:flutter_show_when_locked/flutter_show_when_locked.dart';
 import 'package:timezone/data/latest_all.dart';
 
@@ -35,7 +34,6 @@ void main() async {
     initializeAppDataDirectory(),
     initializeNotifications(),
     AndroidAlarmManager.initialize(),
-    BootReceiver.initialize(handleBoot),
     RingtonePlayer.initialize(),
     initializeAudioSession(),
     FlutterShowWhenLocked().hide(),

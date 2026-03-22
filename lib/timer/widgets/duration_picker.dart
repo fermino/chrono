@@ -5,7 +5,7 @@ import 'package:clock_app/timer/logic/edit_duration_picker_mode.dart';
 import 'package:clock_app/timer/logic/get_duration_picker.dart';
 import 'package:clock_app/timer/types/time_duration.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 Future<TimeDuration?> showDurationPicker(
   BuildContext context, {

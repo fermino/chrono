@@ -16,7 +16,7 @@ import 'package:clock_app/stopwatch/types/stopwatch.dart';
 import 'package:clock_app/stopwatch/widgets/lap_card.dart';
 import 'package:clock_app/stopwatch/widgets/stopwatch_ticker.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 class StopwatchScreen extends StatefulWidget {
   const StopwatchScreen({super.key});

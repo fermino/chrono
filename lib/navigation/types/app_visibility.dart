@@ -20,7 +20,8 @@ class AppVisibility {
       // setState(FGBGType.foreground);
     // }
 
-    subscription = FGBGEvents.stream.listen((event) {
+    // I don't know if this is right...
+    subscription = FGBGEvents.instance.stream.listen((event) {
       setState(event);
     });
   }

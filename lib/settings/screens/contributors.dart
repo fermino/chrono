@@ -5,7 +5,7 @@ import 'package:clock_app/navigation/widgets/app_top_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 Future<dynamic> readGitContributors() async {
   final String response =

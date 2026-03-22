@@ -4,7 +4,7 @@ import 'package:clock_app/settings/screens/settings_group_screen.dart';
 import 'package:clock_app/settings/types/setting_group.dart';
 import 'package:clock_app/settings/types/setting_item.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 class SettingGroupCard extends StatefulWidget {
   final SettingGroup settingGroup;

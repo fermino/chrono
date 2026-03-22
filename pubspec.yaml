@@ -11,34 +11,27 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_boot_receiver: ^1.1.0
   flutter_localizations:
     sdk: flutter
   intl: any
-  # flutter_boot_receiver:
-  #   path: "../flutter_boot_receiver"
   timezone: ^0.9.1
   timer_builder: ^2.0.0
   path_provider: ^2.0.11
   path: ^1.8.2
-  sqflite: ^2.2.2
+  sqflite: ^2.4.2
   flutter_slidable: ^3.1.0
   flutter_system_ringtones: ^0.0.6
-  # android_alarm_manager_plus: ^4.0.4
-  android_alarm_manager_plus:
-    # path: "../plus_plugins/packages/android_alarm_manager_plus/"
-    git:
-      url: https://github.com/AhsanSarwar45/plus_plugins
-      path: packages/android_alarm_manager_plus
-      ref: alarm_show_intent
-  just_audio: ^0.9.31
-  awesome_notifications: ^0.9.3
-  # awesome_notifications:
-  #   path: "../awesome_notifications"
+  # Will be missing https://github.com/fluttercommunity/plus_plugins/compare/main...AhsanSarwar45:plus_plugins:alarm_show_intent
+  android_alarm_manager_plus: ^4.0.4
+  just_audio: ^0.9.44
+  awesome_notifications: ^0.11.0
   audio_session: ^0.1.13
-  flutter_fgbg: ^0.3.0
-  move_to_background: ^1.0.2
-  vibration: ^1.7.6
+  flutter_fgbg: ^0.7.1
+  move_to_background:
+    git:
+      url: https://github.com/ViliusP/move_to_background.git
+      ref: master
+  vibration: ^3.1.8
   get_storage: ^2.1.1
   queue: ^3.1.0+2
   table_calendar: ^3.0.8
@@ -63,7 +56,7 @@ dependencies:
   receive_intent: ^0.2.5
   watcher: ^1.1.0
   dynamic_color: ^1.7.0
-  material_color_utilities: ^0.8.0
+  material_color_utilities: ^0.13.0
   flutter_oss_licenses: ^3.0.2  
   locale_names: ^1.1.1
   # home_widget: ^0.5.0
@@ -88,6 +81,10 @@ dependencies:
   mime: ^1.0.6
   analog_clock: ^0.1.1
   animated_analog_clock: ^0.1.0
+  path_provider_android: ^2.2.22
+  permission_handler_android: ^12.1.0
+  shared_preferences_android: ^2.4.21
+  url_launcher_android: ^6.3.28
   # animated_reorderable_list: ^1.1.1
   # animated_reorderable_list:
     # path: "../animated_reorderable_list"

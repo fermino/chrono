@@ -6,7 +6,7 @@ import 'package:clock_app/common/widgets/fields/select_field/option_cards/color_
 import 'package:clock_app/common/widgets/fields/select_field/option_cards/text_option_card.dart';
 import 'package:clock_app/icons/flux_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 class SelectBottomSheet extends StatelessWidget {
   const SelectBottomSheet({

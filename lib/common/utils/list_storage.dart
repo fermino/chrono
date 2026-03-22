@@ -1,5 +1,7 @@
 import 'dart:async';
+import 'dart:developer';
 import 'dart:io';
+import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:clock_app/common/data/paths.dart';
@@ -11,6 +13,8 @@ import 'package:path/path.dart' as path;
 import 'package:queue/queue.dart';
 import 'package:watcher/watcher.dart';
 
+import '../../developer/logic/logger.dart';
+
 final queue = Queue();
 final watcherSubscriptions = <String, StreamSubscription>{};
 
@@ -19,7 +23,7 @@ void watchTextFile(String key, void Function(WatchEvent) callback) {
   // File file = File(path.join(appDataDirectory, '$key.txt'));
   // file.watch().listen((event) {
   //   if (event == FileSystemEvent.MODIFY) {
-  //     callback(file.readAsStringSync());
+  //     callback(file.readAsStringSync());getAppDataDirectoryPathSync
   //   }
   // });
   var watcher = FileWatcher(path.join(appDataDirectory, '$key.txt'));
@@ -86,7 +90,12 @@ Future<void> saveTextFile(String key, String content) async {
     if (!file.existsSync()) {
       file.createSync();
     }
+    final random = Random().nextInt(999999);
+    logger.d('Writing $key, (random = $random)');
+    logger.d('Content of $key will be (random = $random): $content');
+    // Todo: remember flush = false
     await file.writeAsString(content, mode: FileMode.writeOnly);
+    logger.d('Content of $key written (random = $random)');
   });
 }
 
