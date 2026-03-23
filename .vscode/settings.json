@@ -17,5 +17,5 @@
     "unfocus",
     "Unmanaged"
   ],
-  "dart.flutterSdkPath": ".fvm/versions/3.22.2"
+  "dart.flutterSdkPath": ".fvm/versions/3.24.5"
 }
