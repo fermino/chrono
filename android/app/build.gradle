@@ -34,7 +34,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace "com.vicolo.chrono"
 
-    compileSdkVersion 35
+    compileSdk 36
     ndkVersion flutter.ndkVersion
     
 
