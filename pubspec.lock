@@ -36,12 +36,11 @@ packages:
   android_alarm_manager_plus:
     dependency: "direct main"
     description:
-      path: "packages/android_alarm_manager_plus"
-      ref: alarm_show_intent
-      resolved-ref: ae6c11c3eccd66ff79827424cbf8c208f727282e
-      url: "https://github.com/AhsanSarwar45/plus_plugins"
-    source: git
-    version: "4.0.1"
+      name: android_alarm_manager_plus
+      sha256: "591b97ceaaa8db69776a32bc1ea2fed8f83c3dadfa7b7e95351abfc0894361e7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.0"
   animated_analog_clock:
     dependency: "direct main"
     description:
@@ -102,10 +101,10 @@ packages:
     dependency: "direct main"
     description:
       name: awesome_notifications
-      sha256: d9e46ce7f5171ee1e9b1c5bc6dc40bd77528561f592842ce97ce3a0a9ae155ef
+      sha256: fb4d5d6effd904720cbc85cfbe796da35f6b0ff079c0798c1a387616200bd80c
       url: "https://pub.dev"
     source: hosted
-    version: "0.9.3+1"
+    version: "0.11.0"
   background_fetch:
     dependency: "direct main"
     description:

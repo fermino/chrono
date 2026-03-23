@@ -27,17 +27,9 @@ dependencies:
     git:
       url: https://github.com/fermino/flutter_system_ringtones
       ref: 78efe09646a69850be43540954c7b4cfa05eb4d8
-  # android_alarm_manager_plus: ^4.0.4
-  android_alarm_manager_plus:
-    # path: "../plus_plugins/packages/android_alarm_manager_plus/"
-    git:
-      url: https://github.com/AhsanSarwar45/plus_plugins
-      path: packages/android_alarm_manager_plus
-      ref: alarm_show_intent
+  android_alarm_manager_plus: ^5.0.0
   just_audio: ^0.9.31
-  awesome_notifications: ^0.9.3
-  # awesome_notifications:
-  #   path: "../awesome_notifications"
+  awesome_notifications: ^0.11.0
   audio_session: ^0.1.13
   flutter_fgbg: ^0.3.0
   move_to_background:
