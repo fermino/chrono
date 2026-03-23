@@ -13,7 +13,7 @@ import 'package:clock_app/system/data/device_info.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class RingtonesScreen extends StatefulWidget {

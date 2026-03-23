@@ -7,7 +7,7 @@ import 'package:clock_app/common/widgets/card_container.dart';
 import 'package:clock_app/common/widgets/list/action_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 class ListFilterChip<Item extends ListItem> extends StatelessWidget {
   const ListFilterChip({

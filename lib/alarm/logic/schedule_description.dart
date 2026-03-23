@@ -15,7 +15,7 @@ import 'package:clock_app/common/utils/weekday_utils.dart';
 import 'package:clock_app/settings/data/settings_schema.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 String getAlarmScheduleDescription(BuildContext context, Alarm alarm,
     String dateFormat, TimeFormat timeFormat) {

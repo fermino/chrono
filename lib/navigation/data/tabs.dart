@@ -7,7 +7,7 @@ import 'package:clock_app/icons/flux_icons.dart';
 import 'package:clock_app/clock/screens/clock_screen.dart';
 import 'package:clock_app/navigation/types/tab.dart';
 import 'package:flutter/material.dart' hide Tab;
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 List<Tab> getTabs(BuildContext context,
     [QuickActionController? actionController]) {

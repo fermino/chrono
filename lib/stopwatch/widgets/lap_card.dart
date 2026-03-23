@@ -2,7 +2,7 @@ import 'package:clock_app/stopwatch/types/lap.dart';
 import 'package:clock_app/stopwatch/types/stopwatch.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:clock_app/l10n/app_localizations.dart';
 
 class LapCard extends StatelessWidget {
   const LapCard({super.key, required this.lap});
