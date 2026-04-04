@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:io';
+import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:clock_app/common/data/paths.dart';
@@ -86,6 +87,12 @@ Future<void> saveTextFile(String key, String content) async {
     if (!file.existsSync()) {
       file.createSync();
     }
+    final random = Random().nextInt(999999);
+    logger.d('Writing $key, (random = $random)');
+    logger.d('Content of $key will be (random = $random): $content');
+    // Todo: remember flush = false
+    await file.writeAsString(content, mode: FileMode.writeOnly);
+    logger.d('Content of $key written (random = $random)');
     await file.writeAsString(content, mode: FileMode.writeOnly);
   });
 }
